@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {% load static %}
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selvaganesh</title>
+
+
+
+    <!--- google font API -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Saira+Extra+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+
+    <!-- style sheet ref link-->
+    <link rel="stylesheet" href="{% static 'blog/blogs.css'%}">
+
+</head>
+
+<body>
+    <div id="page-heading-div">
+        <p id="page-heading">Experiences That Matter</p>
+        <p id="page-sub-heading">(Be prolific, not perfect)</p>
+        <p id="home-btn"><a href="{% url 'blog:home' %}">Home</a></p>
+    </div>
+    <br>
+    <hr>
+    <div id="blogs">
+        {% for blog in blogs %}
+        <a href="{% url 'blog:blog_detail' slug=blog.slug %}" style="text-decoration: none; color: inherit;">
+            <div id="blog">
+                <img id="blog-img" src="{{ blog.image.url }}" alt="Blog Image" height="250px" width="400px">
+                <p id="date">{{ blog.created_at }}</p>
+                <p id="heading">{{ blog.name }}</p>
+                <p id="desc">{{ blog.short_desc }}</p>
+            </div>
+            {% endfor %}
+    </div>
+    </a>
+    <div class="pagination">
+        {% if blogs.has_previous %}
+        <a href="?page1">First</a>
+        <a href="?page={{ blogs.previous_page_number  }}">Previous</a>
+        {% endif %}
+
+
+
+        {% if blogs.has_next %}
+        <a href="?page={{ blogs.next_page_number }}">Next</a>
+        <a href="?page={{ blogs.paginator.num_pages }}">Last</a>
+        <span> Page {{ blogs.number }} of {{ blogs.paginator.num_pages }}</span>
+        {% endif %}
+
+    </div>
+</body>

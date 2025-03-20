@@ -1,0 +1,322 @@
+body {
+    background-color: #DFDFDD;
+}
+
+.about {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    font-family: 'Lora', serif;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 17px;
+}
+
+/* .center-div {
+    background-color: blue;
+    border: 2px solid yellow;
+
+} */
+
+img {
+    width: 200px;
+    height: auto;
+    border-radius: 100px;
+    filter: grayscale(100%);
+}
+
+.img-div {
+    display: flex;
+    justify-content: center;
+    /* background-color: green; */
+    padding: 40px;
+}
+
+.handles {
+    display: flex;
+    /* background-color: orange;
+    border: 2px solid seagreen; */
+    gap: 10px;
+    justify-content: center;
+    font-family: 'Lora', serif;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-top: -30px;
+    font-size: 17px;
+}
+
+
+#name,
+#role {
+    text-align: center;
+    font-family: 'Lora', serif;
+}
+
+#name {
+    font-size: 60px;
+    margin: 0;
+}
+
+#role {
+    font-size: 22px;
+    font-style: italic;
+
+}
+
+.handles p:not(:last-child)::after {
+    content: "|";
+    /* Adds the | separator */
+    margin-left: 10px;
+    /* Adjust space */
+    color: grey;
+    /* Change color if needed */
+}
+
+.handles a {
+    color: inherit;
+}
+
+.about a {
+    color: inherit;
+}
+
+.handles,
+.about,
+.img-div,
+#role,
+#name {
+    animation-duration: 2s;
+    animation-name: slidefade;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes slidefade {
+    from {
+        opacity: 0;
+        transform: translateX(10%);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Style for  Dialog */
+
+#dialog {
+    display: none;
+    /* Hide by default */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #DFDFDD;
+
+    width: 50vw;
+    /* Adjust width dynamically (e.g., 50% of viewport width) */
+    height: 63vh;
+    /* Adjust height dynamically (e.g., 63% of viewport height) */
+
+    max-width: 90%;
+    /* Prevent it from going too large */
+    max-height: 90%;
+
+    padding: 50px;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: auto;
+    /* Enables scrolling if content overflows */
+    font-family: 'Lora', serif;
+    font-style: italic;
+    opacity: 0;
+    /* Initially hidden */
+    animation: fadeIn 1.5s ease-out forwards;
+}
+
+#closeDialog {
+    /*This is for close button*/
+    position: absolute;
+    right: 50px;
+    margin-top: -30px;
+    margin-right: -30px;
+
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        /* transform: translateY(20px); Starts 20px lower */
+    }
+
+    to {
+        opacity: 1;
+        /* transform: translateY(0px); Moves to normal position */
+    }
+}
+
+#para {
+    max-width: 800px;
+}
+
+
+
+/* for 29 inch monitor  */
+
+@media (min-width: 2560px) {
+    body {
+        max-width: 85%;
+        /* Adjust content width */
+        margin: 0 auto;
+        /* Center content */
+        /* background-color: yellow; */
+    }
+
+    .center-div,
+    .about {
+        margin-top: 70px;
+    }
+
+    #dialog {
+        width: 30vw;
+        /* Adjust width dynamically (e.g., 50% of viewport width) */
+        height: 45vh;
+        /* Adjust height dynamically (e.g., 63% of viewport height) */
+        max-width: 90%;
+        /* Prevent it from going too large */
+        max-height: 90%;
+    }
+
+    .handles,
+    .about {
+        font-size: 2rem;
+    }
+
+    .handles {
+        margin-top: -50px;
+    }
+
+    #name {
+        margin-top: 130px;
+        font-size: 100px;
+    }
+
+    #role {
+        margin-top: 0;
+        font-size: 40px;
+    }
+
+    img {
+        transform: scale(2);
+        transform-origin: center center;
+    }
+
+}
+
+/* For 27 Inch monitor */
+
+@media (min-width: 2560px) and (min-height: 1440px) {
+    body {
+        max-width: 80%;
+        /* Prevents content from stretching */
+        margin: 0 auto;
+        /* Centers the content */
+    }
+
+    .center-div {
+        /* background-color: blue; */
+        margin-top: 100px;
+    }
+
+    .about {
+        margin-top: 200px;
+    }
+
+    #dialog {
+        width: 30vw;
+        /* Adjust width dynamically (e.g., 50% of viewport width) */
+        height: 35vh;
+        /* Adjust height dynamically (e.g., 63% of viewport height) */
+
+        max-width: 90%;
+        /* Prevent it from going too large */
+        max-height: 90%;
+    }
+
+    .about,
+    .handles {
+        font-size: 2rem;
+    }
+
+    #name {
+        margin-top: 150px;
+    }
+
+    img {
+        transform: scale(2);
+        transform-origin: center center;
+    }
+
+}
+
+/* For Apple Tablet Air */
+
+@media (min-width: 1640px) and (min-height: 2360px) and (orientation: portrait) {
+    .about {
+        margin-top: 300px;
+        font-size: 3.5rem;
+    }
+
+    .center-div {
+        margin-top: 300px;
+    }
+
+    img {
+        width: 200px;
+        height: auto;
+        border-radius: 100px;
+        filter: grayscale(100%);
+        transform: scale(3);
+        transform-origin: center center;
+    }
+
+    #name {
+        margin-top: 400px;
+        font-size: 150px;
+    }
+
+    #role {
+        margin-top: 0;
+        font-size: 70px;
+        margin-bottom: 0;
+    }
+
+    .handles {
+        font-size: 3.5rem;
+    }
+
+    #dialog {
+
+        width: 51vw;
+        /* Adjust width dynamically (e.g., 50% of viewport width) */
+        height: 53vh;
+        /* Adjust height dynamically (e.g., 63% of viewport height) */
+        max-width: 90%;
+        /* Prevent it from going too large */
+        max-height: 90%;
+        font-size: 30px;
+    }
+
+    #closeDialog {
+        /*This is for close button*/
+        position: absolute;
+        right: 50px;
+        margin-top: 15px;
+        margin-right: 15px;
+
+    }
+
+
+}

@@ -1,0 +1,201 @@
+body {
+    background-color: #DFDFDD;
+    font-family: 'Lora', serif;
+}
+
+
+#page-heading-div {
+    padding: 15px;
+}
+
+#page-sub-heading {
+    font-style: italic;
+    text-align: center;
+    font-size: 18px;
+    color: rgb(107, 100, 100);
+    /* background-color: orange; */
+}
+
+
+#page-heading {
+    font-size: 30px;
+    text-align: center;
+    /* background-color: pink; */
+}
+
+#page-heading-div p {
+    margin: 1px 0;
+}
+
+#heading {
+    font-size: 20px;
+    font-weight: bolder;
+    /* background-color: blueviolet; */
+}
+
+.empty {
+    text-align: center;
+    /* background-color: yellow; */
+    margin-top: 70px;
+}
+
+#no-blog {
+    font-size: 25px;
+}
+
+
+#blogs {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    /* background-color: dodgerblue; */
+    padding: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+#blogs>#blog {
+    max-width: 400px;
+    /* background-color: orange; 
+    border: 1px solid black; */
+    text-align: center;
+    font-size: 17px;
+    /* background-color: yellow;
+    border-radius: 20px; */
+}
+
+
+.pagination {
+    margin-top: 20px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.pagination a {
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 17px;
+    margin: 0 5px;
+}
+
+.pagination span {
+    font-weight: bold;
+    padding: 8px;
+}
+
+#desc,
+#heading {
+    text-align: left;
+}
+
+#desc {
+    color: rgb(107, 100, 100);
+    /* background-color: orange; */
+}
+
+#home-btn {
+    /* position: absolute;
+    top: 40px;
+    right: 200px; */
+    /* background-color: blue; */
+    text-align: right;
+    color: black !important;
+    text-decoration: underline;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: -40px !important;
+    margin-right: 10% !important;
+}
+
+a:visited,
+a:hover,
+a:active {
+    color: black  !important;
+    /* Keeps the same color */
+}
+
+
+#page-heading,
+#home-btn,
+#blogs,
+#page-sub-heading {
+    animation-duration: 1.5s;
+    animation-name: slidefade;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes slidefade {
+    from {
+        opacity: 0;
+        transform: translateX(3%);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+#date {
+    font-style: italic !important;
+}
+
+
+/* responsive media queries */
+
+
+/* For 29 Inch Monitor */
+
+@media (min-width: 2560px) {
+    #blogs {
+        max-width: 55%;
+        margin: 0 auto;
+    }
+
+    #blog {
+        margin: 0 auto;
+        max-width: 80%;
+    }
+
+}
+
+
+/* For Mobile */
+@media (max-width: 768px) {
+
+    /* #home-btn {
+        position: absolute;
+        top: 98px;
+        right: 185px;
+        color: black !important;
+        text-decoration: underline;
+        font-size: 17px;
+        font-weight: bold;
+    } */
+
+    #blogs {
+        grid-template-columns: 1fr;
+        /* background-color: blue; */
+        width: 100%;
+        margin-left: -10px;
+    }
+
+    #blog-img {
+        width: 380px;
+        height: 230px;
+    }
+
+    #blog {
+        max-width: 100%;
+        /* background-color: orange; */
+    }
+
+    #home-btn {
+        margin: 10px 0px -30px 0px !important;
+        text-align: center !important;
+        color: black !important;
+    }
+
+}

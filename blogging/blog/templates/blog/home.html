@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {% load static %}
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selvaganesh</title>
+
+
+
+    <!--- google font API -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Saira+Extra+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+
+    <!-- style sheet ref link-->
+    <link rel="stylesheet" href="{% static 'blog/home.css'%}">
+
+</head>
+
+<body>
+    <!-- About and Blog Button -->
+    <div class="about">
+        <p><a id="openDialog" href="#">About Me</a></p> <!--Link will open "about me" dialog box-->
+        <p><a href="{% url 'blog:blogs' %}">Blogs</a></p>
+    </div>
+
+    <!-- Image name role  -->
+    <div class="center-div">
+        <!-- Only Image and name -->
+        <div>
+            <div class="img-div">
+                <img src="https://selvaganesh3m.github.io/images/selva.jpeg" alt="Description of image">
+            </div>
+            <p id="name">Selvaganesh</p>
+            <p id="role">An indie software developer</p>
+        </div>
+
+        <!-- Handles  -->
+        <div class="handles">
+            <p><a href="https://x.com/selvaganesh3m" target="_blank">Twitter</a></p>
+            <p><a href="https://www.instagram.com/selvaganeshmanokaran/" target="_blank">Instagram</a></p>
+            <p><a href="https://github.com/selvaganesh3m" target="_blank">Github</a></p>
+        </div>
+    </div>
+
+
+    <!-- Custom Dialog Box -->
+    <div id="dialog">
+
+        <!-- Close Button -->
+        <img id="closeDialog" src="{% static 'images/close-button.png' %}" alt="Close"
+            style="cursor: pointer; width: 30px;">
+
+        <p>Hi Reader,</p>
+        <p id="para">
+            I’m a dedicated software developer with 3 years of experience in building robust and scalable applications.
+            My expertise lies in backend development, especially with Django, where I craft efficient, maintainable, and
+            high-performance systems.
+        </p>
+        <p id="para">
+            I’m always looking to push my limits—whether it’s optimizing an application for better performance, learning
+            new technologies, or creating innovative digital solutions. My passion for problem-solving drives me to
+            build software that makes a real impact.
+        </p>
+        <p id="para">
+            Currently, I’m focused on honing my skills, developing personal projects, and taking on new challenges in
+            the tech industry. Let’s connect and build something great!
+        </p>
+
+        <p id="para">
+            Experienced software developer with a strong background in designing and developing software applications.
+            Proficient in multiple programming languages and frameworks, with a focus on creating efficient and scalable
+            solutions. Proven track record of delivering high-quality projects on time and within budget.
+        </p>
+
+        <p id="para">
+            Experienced software developer with a strong background in designing and developing software applications.
+            Proficient in multiple programming languages and frameworks, with a focus on creating efficient and scalable
+            solutions. Proven track record of delivering high-quality projects on time and within budget.
+        </p>
+
+
+
+        <!-- <a href="#" id="closeDialog">Close</a> -->
+    </div>
+
+
+
+
+
+
+    <!-- Link the external script -->
+    <script src="{% static 'js/home.js' %}"></script>
+</body>
