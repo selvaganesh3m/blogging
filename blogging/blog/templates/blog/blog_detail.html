@@ -19,8 +19,7 @@
         rel="stylesheet">
 
     <!-- Highlight Js -->
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/night-owl.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/night-owl.min.css">
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
     <script>hljs.highlightAll();</script>
@@ -38,9 +37,22 @@
         <div class="main-img">
             <img src="{{ blog.image.url }}" alt="Blog Image">
         </div>
-        <p id="blog-name">{{ blog.name }}</p>
-        <p id="date">{{ blog.created_at }}</p>
+        <div class="heading-box">
+        <div class="with-img">
+            <img id="author-img"
+                src="https://raw.githubusercontent.com/selvaganesh3m/selvaganesh3m.github.io/refs/heads/master/images/selva.jpeg"
+                alt="author-img">
+            <div class="without-img">
+                <p id="blog-name">{{ blog.name }}</p>
+                <p id="created-time">{{ blog.created_at }}</p>
+            </div>
+        </div>
+    </div>
+
+
         <hr>
         {{ blog.content|markdown|safe }}
+        <br>
+        <p id="updated-time">Last updated: {{ blog.updated_at }}</p>
     </div>
 </body>
