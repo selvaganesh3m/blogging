@@ -1,10 +1,10 @@
 from django import template
-import markdown
+import markdown2
 
 register = template.Library()
 
 @register.filter(name='markdown')
 def markdown_filter(value):
     """Converts markdown to HTML"""
-    extensions = ['extra', 'codehilite', 'fenced_code']
-    return markdown.markdown(value, extensions=extensions)
+    extensions = ['fenced-code-blocks', 'code-friendly', 'highlightjs']
+    return markdown2.markdown(value, extras=extensions)
