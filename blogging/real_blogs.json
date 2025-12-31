@@ -1,0 +1,198 @@
+[
+{
+  "model": "blog.blog",
+  "pk": 69,
+  "fields": {
+    "name": "This is First example blog looks as expected",
+    "short_desc": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean ac molestie erat, non mollis risus.",
+    "image": "blog_images/hilly_landscape-_JajD76j.jpg",
+    "slug": "this-is-first-example-blog-looks-as-expected",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quam lectus, sagittis eget sem ornare, blandit mollis velit. Praesent varius, justo sit amet rutrum pulvinar, nisl ex consectetur erat, in malesuada tortor mauris eu elit. Suspendisse ut pellentesque nibh. Integer convallis lorem nec dui luctus, nec imperdiet neque rhoncus. Proin ut dapibus urna. Curabitur rhoncus diam et lorem aliquam consequat. Cras vel nisl leo.\r\n\r\nMaecenas a sapien sit amet enim iaculis fringilla et nec tellus. Proin ornare vehicula bibendum. Maecenas lectus enim, condimentum id neque vitae, finibus pretium tortor. Etiam elementum leo non nibh sodales elementum. In finibus libero id arcu accumsan, sit amet finibus est scelerisque. Curabitur lobortis ipsum mi, quis dictum urna aliquam eget. In aliquet turpis nec efficitur cursus. Vivamus id faucibus erat. Nunc ac congue est, sed commodo arcu. Mauris interdum cursus erat at accumsan. Integer ut diam mauris.",
+    "is_active": true,
+    "created_at": "2025-02-27T17:19:02.993Z",
+    "updated_at": "2025-03-07T18:16:02.803Z"
+  }
+},
+{
+  "model": "blog.blog",
+  "pk": 70,
+  "fields": {
+    "name": "This is second example Blog looks as expected",
+    "short_desc": "Vivamus vel velit in dui pharetra pulvinar. Nam non purus neque. Cras lacinia mauris sapien, quis finibus quam fermentum non.",
+    "image": "blog_images/BingWallpaper_3.jpg",
+    "slug": "this-is-second-example-blog-looks-as-expected",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quam lectus, sagittis eget sem ornare, blandit mollis velit. Praesent varius, justo sit amet rutrum pulvinar, nisl ex consectetur erat, in malesuada tortor mauris eu elit. Suspendisse ut pellentesque nibh. Integer convallis lorem nec dui luctus, nec imperdiet neque rhoncus. Proin ut dapibus urna. Curabitur rhoncus diam et lorem aliquam consequat. Cras vel nisl leo.\r\n\r\nMaecenas a sapien sit amet enim iaculis fringilla et nec tellus. Proin ornare vehicula bibendum. Maecenas lectus enim, condimentum id neque vitae, finibus pretium tortor. Etiam elementum leo non nibh sodales elementum. In finibus libero id arcu accumsan, sit amet finibus est scelerisque. Curabitur lobortis ipsum mi, quis dictum urna aliquam eget. In aliquet turpis nec efficitur cursus. Vivamus id faucibus erat. Nunc ac congue est, sed commodo arcu. Mauris interdum cursus erat at accumsan. Integer ut diam mauris.",
+    "is_active": true,
+    "created_at": "2025-03-02T18:26:55.321Z",
+    "updated_at": "2025-03-07T18:20:01.032Z"
+  }
+},
+{
+  "model": "blog.blog",
+  "pk": 71,
+  "fields": {
+    "name": "Story of a anxious people",
+    "short_desc": "Nullam hendrerit scelerisque libero, volutpat malesuada risus condimentum at. Aliquam at aliquam diam. Nam imperdiet cursus sapien sit amet blandit.",
+    "image": "blog_images/BingWallpaper_1.jpg",
+    "slug": "gunadappa-visvanatha-story-is-good-and-amazing",
+    "content": "Lorem ipsm",
+    "is_active": true,
+    "created_at": "2025-03-05T18:58:44.436Z",
+    "updated_at": "2025-03-07T18:19:36.749Z"
+  }
+},
+{
+  "model": "blog.blog",
+  "pk": 72,
+  "fields": {
+    "name": "Sample test blog successful",
+    "short_desc": "Morbi egestas aliquet orci consequat lobortis. Nullam consectetur lacus felis, vitae interdum libero porttitor sed. Duis eu semper ante. Ut.",
+    "image": "blog_images/BingWallpaper_5.jpg",
+    "slug": "sample-sigapur-maaama-india",
+    "content": "Lorem Ipsum",
+    "is_active": true,
+    "created_at": "2025-03-05T19:01:17.826Z",
+    "updated_at": "2025-03-07T18:19:06.444Z"
+  }
+},
+{
+  "model": "blog.blog",
+  "pk": 73,
+  "fields": {
+    "name": "How I overcame my uncertainty",
+    "short_desc": "It took me more than a decade to get succeed, the problem is little hard to tell because it's not happening outside happening inside",
+    "image": "blog_images/stress.jpeg",
+    "slug": "how-i-overcame-my-uncertainty",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porttitor tempus nulla. Nam id dictum magna, sed eleifend lectus. Sed congue eu est a aliquet. Morbi sem mi, ullamcorper ultrices mi vitae, pharetra laoreet purus. Integer suscipit augue in ullamcorper ornare. Proin egestas id tellus in tristique. Proin elit dui, eleifend in varius sed, aliquet vitae urna. Mauris ac neque ac odio aliquet vulputate. Etiam condimentum urna in turpis viverra finibus.\r\n\r\nEtiam vel consectetur diam. Etiam pretium lacus eget pretium interdum. Vivamus pretium rhoncus purus, vel finibus velit condimentum vitae. Ut eleifend felis pellentesque arcu egestas pulvinar. Praesent feugiat augue ultricies ipsum rutrum lacinia. Proin eget rhoncus neque, vitae consectetur ligula. Vivamus sollicitudin vitae purus eu iaculis. Aliquam vel augue cursus, pretium dolor et, varius dolor. Vivamus laoreet justo id porta tempus. Nulla tincidunt porta venenatis. Ut sed sollicitudin libero, quis laoreet lorem. Praesent maximus sed velit nec porta. Sed blandit, est vitae lacinia faucibus, lorem erat tempor orci, vel consequat dui ante ac metus.\r\n\r\nMauris et sodales nibh. Cras commodo non enim in cursus. Donec tempus egestas sem id finibus. Sed ornare, sapien quis mollis tempor, turpis sapien auctor orci, ut tempus leo nulla a libero. Aliquam convallis dolor vel tellus tempus, sit amet ullamcorper ex mattis. Praesent a libero nec tortor convallis cursus eget ac turpis. Duis tempor nisi nunc, at laoreet urna consequat sit amet. Praesent elit ex, varius vitae porttitor sed, maximus id lectus. Nam fermentum volutpat lorem id viverra. Sed elit nibh, auctor maximus libero a, pretium condimentum felis. Donec vehicula lacus nec nunc malesuada, at blandit magna tempor. Sed a mollis dolor, sit amet feugiat enim.",
+    "is_active": true,
+    "created_at": "2025-03-07T18:08:03.193Z",
+    "updated_at": "2025-03-07T18:09:11.692Z"
+  }
+},
+{
+  "model": "blog.blog",
+  "pk": 74,
+  "fields": {
+    "name": "A Beautiful Lion Sleeping in Uganda",
+    "short_desc": "Good to see a sleeping lion from Uganda forest",
+    "image": "blog_images/BingWallpaper_8.jpg",
+    "slug": "a-beautiful-lion-sleeping-in-uganda",
+    "content": "Praesent venenatis felis nisi, at vehicula risus ultricies ut. Vivamus id sodales elit. Integer eu finibus quam. Curabitur lacinia elit vel mauris porta, quis ornare nibh viverra. In mauris erat, sagittis eu nulla ut, euismod pellentesque orci. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer finibus, eros eget euismod facilisis, nunc enim hendrerit mauris, non imperdiet felis dolor quis mauris. Morbi nec lacus eu lorem ultricies posuere a in est. Curabitur euismod pharetra mollis. Fusce aliquam, ligula id venenatis dignissim, nisi nibh elementum est, ullamcorper pellentesque augue orci non neque. Nulla id ipsum consequat, mattis arcu sit amet, congue felis. Duis ac urna ac dui vehicula ultrices.\r\n\r\nNam mattis tellus quis felis feugiat, quis venenatis tellus viverra. Vivamus tristique, ante et vulputate egestas, diam orci ultrices augue, in bibendum neque urna non est. Integer id odio et lorem luctus convallis. Donec eleifend, arcu id tincidunt lobortis, quam diam varius nulla, at cursus nisi eros eget turpis. Curabitur dignissim erat eu nisi elementum molestie non sed ante. Nulla cursus ac felis eu rhoncus. Vestibulum tincidunt erat non tortor pharetra pretium.\r\n\r\nDuis malesuada, orci vel elementum bibendum, turpis magna suscipit nunc, sit amet congue nisi odio et quam. Maecenas eu augue nec ante molestie sagittis. Cras et mattis tellus. In aliquet nec justo in aliquam. Duis ante sem, vehicula nec felis et, lacinia eleifend massa. Donec tristique elementum turpis, quis placerat metus suscipit eget. Sed vel risus et tellus tincidunt vestibulum. Duis lacinia placerat est eu fermentum. Duis at orci id nibh placerat suscipit. Vestibulum hendrerit porttitor dui et euismod.\r\n\r\nCras ut suscipit ipsum. Phasellus at pharetra justo. Pellentesque feugiat at lorem ac viverra. Fusce placerat molestie interdum. Nullam vitae volutpat eros. Morbi et maximus est, sed ullamcorper lacus. Etiam in velit mauris. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam a interdum lectus. Maecenas eget diam elementum, malesuada massa a, tristique risus. Duis interdum, arcu nec imperdiet porta, eros eros luctus felis, at malesuada quam purus ac lectus. Vestibulum vitae molestie orci. Cras finibus tortor in lectus volutpat, vitae placerat diam hendrerit. Praesent eget arcu pulvinar, blandit purus sit amet, varius tortor. Vivamus hendrerit, magna eget tempor finibus, ligula lacus fringilla velit, vitae commodo sem nisl scelerisque libero.\r\n\r\nInteger convallis est id fringilla consectetur. Nunc varius sem arcu, quis laoreet libero fringilla vitae. Donec tempor fringilla turpis non faucibus. Cras eu nisi justo. Sed at erat ac ex pharetra convallis. Vestibulum gravida tellus urna, vitae maximus arcu tincidunt vel. Suspendisse potenti. In sollicitudin cursus turpis sed efficitur. Nam pharetra orci nec arcu maximus, ut scelerisque purus pellentesque. Ut nec magna eu purus tristique ultricies quis ac eros.",
+    "is_active": true,
+    "created_at": "2025-03-10T17:29:16.068Z",
+    "updated_at": "2025-03-10T17:29:16.069Z"
+  }
+},
+{
+  "model": "blog.blog",
+  "pk": 75,
+  "fields": {
+    "name": "Famous Bridge from Dublin",
+    "short_desc": "This is one of the famous bridge in dublin, Ireland and if you get a chance to visit there must visit place",
+    "image": "blog_images/BingWallpaper_9.jpg",
+    "slug": "famous-bridge-from-dublin",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non nulla finibus arcu rhoncus iaculis. Curabitur arcu felis, elementum vitae est eget, cursus viverra lectus. Nam a sem nisi. Etiam pulvinar quam vitae nulla dictum, a ultrices ligula porta. Duis eget ipsum vel justo consectetur sodales. Sed eget euismod lorem. Ut eget leo vitae elit auctor dapibus ut sit amet mi. Mauris malesuada purus blandit, pellentesque sem sit amet, rhoncus odio. Suspendisse dolor felis, tincidunt sed vehicula non, dignissim quis diam. Morbi egestas mattis est nec rhoncus. Aliquam lobortis pharetra risus eu laoreet.\r\n\r\nCurabitur odio diam, eleifend quis mollis in, suscipit eget mi. Proin condimentum, diam vitae tincidunt interdum, tortor libero sollicitudin dolor, et sodales purus nisi non eros. Sed viverra euismod dui, non malesuada dolor tristique vulputate. Nam commodo enim quis dictum feugiat. Etiam efficitur, diam ut maximus lobortis, metus turpis congue nulla, non interdum lorem mi ac nulla. Ut dolor metus, fringilla quis vestibulum at, molestie nec diam. Morbi sed sagittis tellus.\r\n\r\nMorbi eu varius dolor, non egestas nibh. Phasellus varius turpis id magna vehicula, et semper tortor malesuada. Sed consequat justo sit amet elit imperdiet, bibendum sagittis ex vulputate. Mauris congue ac ante sed finibus. Praesent aliquam, lacus non commodo blandit, dolor velit sodales ipsum, non suscipit velit leo vel metus. Sed dignissim viverra varius. Sed congue tempus venenatis. Quisque pellentesque sem in urna sodales, eu viverra nibh pharetra. Donec eleifend, justo quis eleifend convallis, tellus augue semper neque, vel semper eros lacus quis odio.\r\n\r\nMaecenas posuere placerat vehicula. Quisque non neque in mauris fermentum lobortis. Pellentesque aliquam congue mi. Cras in neque vel felis laoreet tristique. Sed maximus, metus sit amet vulputate aliquet, augue erat varius turpis, ac suscipit elit neque vitae mi. Integer in hendrerit tortor, non facilisis purus. Curabitur ut ante interdum, mattis arcu sit amet, tempor mauris. Phasellus faucibus velit non orci volutpat bibendum. Fusce mattis metus ac est lobortis sollicitudin. Mauris sagittis sem diam, in tincidunt mauris dictum sit amet. Etiam rutrum sapien vitae posuere dictum. In nunc felis, suscipit non ornare sit amet, tempor vel neque. Sed ut placerat felis, in vehicula diam. Nunc pellentesque aliquam faucibus. Mauris tempor lacus metus, ut accumsan risus scelerisque sed. Mauris convallis metus odio, nec lacinia quam facilisis non.",
+    "is_active": true,
+    "created_at": "2025-03-17T19:44:46.174Z",
+    "updated_at": "2025-03-17T19:44:50.176Z"
+  }
+},
+{
+  "model": "blog.blog",
+  "pk": 76,
+  "fields": {
+    "name": "Redrock formation Arizona",
+    "short_desc": "Located in Arizona,USA - If you want to visit go ahead and enjoy",
+    "image": "blog_images/BingWallpaper_10.jpg",
+    "slug": "redrock-formation-arizona",
+    "content": "In vitae volutpat enim, at feugiat diam. Curabitur pulvinar ipsum vitae sapien eleifend, vitae pulvinar magna malesuada. Etiam a augue sapien. Etiam convallis magna id sem mattis, et porttitor nulla dictum. Cras et molestie enim. Proin nunc orci, eleifend sed faucibus rhoncus, scelerisque eu metus. In non condimentum leo. Sed vel arcu ac ante ullamcorper iaculis. Morbi tincidunt sed risus vel iaculis. Donec nec nisl id ex viverra rhoncus. Nulla quis laoreet quam. Duis venenatis sollicitudin eros, vitae lacinia eros ornare sed. Mauris posuere bibendum urna. Aliquam erat volutpat.\r\n\r\nAenean in tellus a nisi tristique porttitor non a arcu. Phasellus tempus sem non magna pulvinar malesuada. Sed luctus vel mi eu semper. Cras vitae lorem hendrerit, volutpat lorem eu, blandit turpis. Proin at fermentum metus. Duis pharetra massa odio, sed tempus lacus porta id. Nullam vulputate id urna bibendum molestie.\r\n\r\nDonec vulputate turpis ligula, vitae aliquam tortor luctus sed. Nulla tincidunt orci est, a tristique lectus imperdiet id. Fusce sit amet dolor sed libero blandit varius. In hac habitasse platea dictumst. Integer non aliquet eros. Ut suscipit pulvinar mi ut sagittis. Donec at nisi nec lacus commodo laoreet et fermentum metus. Vestibulum vestibulum bibendum neque, et auctor elit condimentum eget. Nam nec mollis turpis, ac pellentesque ex. Aenean purus felis, dictum quis scelerisque a, ullamcorper at dui. Vestibulum vehicula felis id convallis volutpat. Aenean vestibulum metus quam, ac suscipit mauris tempor non. Praesent dolor ipsum, pulvinar sit amet ipsum placerat, gravida sodales augue. Sed enim arcu, vehicula in lacus non, vehicula luctus leo. Morbi id odio et sem tristique pretium ut aliquet enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit.\r\n\r\nAenean pharetra consequat auctor. Etiam eget lobortis nisi. In gravida mi vitae pulvinar iaculis. Maecenas venenatis orci ut consequat ornare. Nulla diam sapien, ultrices at vulputate non, posuere ut libero. Vestibulum nec mi ullamcorper erat fringilla laoreet id eu lorem. Proin efficitur, velit ut pretium condimentum, massa dolor viverra eros, ut maximus orci lacus ac lacus. Sed interdum auctor erat, vitae placerat sem dictum ut. Etiam euismod, lectus non facilisis luctus, mi diam consectetur turpis, ut vestibulum purus dolor et nunc. Maecenas fermentum mi vel turpis rutrum gravida.\r\n\r\nCurabitur a sagittis nulla. Aliquam egestas lobortis faucibus. Suspendisse nec arcu nec risus lacinia pulvinar. Phasellus nec est magna. Nunc aliquam felis sit amet magna fringilla, eu varius elit dignissim. Vivamus at faucibus sem. Nam turpis lectus, accumsan ut egestas non, ultrices ut nisl. Curabitur sit amet tristique ligula. Duis consectetur lacus a pretium malesuada. Morbi condimentum pellentesque est in commodo. Donec ante augue, dictum finibus quam vitae, faucibus eleifend risus. In sed egestas est. Etiam feugiat lacus ac justo maximus, vel interdum dui dignissim. Aliquam porttitor metus ex",
+    "is_active": true,
+    "created_at": "2025-03-18T05:45:47.034Z",
+    "updated_at": "2025-03-18T05:45:47.034Z"
+  }
+},
+{
+  "model": "blog.blog",
+  "pk": 77,
+  "fields": {
+    "name": "Rome emperor is great",
+    "short_desc": "Ancient rome emperor and its architecture and rulings",
+    "image": "blog_images/BingWallpaper_11.jpg",
+    "slug": "rome-emperor-is-great",
+    "content": "Phasellus volutpat nunc a odio tempor sagittis. Nullam vehicula porttitor leo eu pharetra. Curabitur in mi sit amet urna semper egestas. Integer vel maximus augue, sit amet blandit ex. Cras felis mauris, dictum in fringilla at, consectetur non tellus. Vestibulum dapibus semper porttitor. Nunc a consequat nisl. Donec ut eleifend est, dignissim laoreet mi. Pellentesque dolor ex, fringilla sed viverra sit amet, ornare at urna.\r\n\r\nEtiam elit nisi, viverra ultricies odio ac, blandit egestas magna. Vestibulum efficitur euismod libero, nec euismod leo vehicula at. Nullam dolor neque, tempor eu interdum consequat, placerat non mauris. Pellentesque in turpis pulvinar, commodo mauris eget, vehicula sem. Aliquam sit amet diam sed lacus euismod maximus. Mauris dictum feugiat enim in malesuada. Donec ullamcorper neque nec molestie aliquet. Mauris eget viverra massa. Cras tincidunt condimentum tortor, eu pretium quam fermentum ut. Nullam vel suscipit enim. Aliquam pharetra leo ligula. Ut vehicula dapibus sem, in hendrerit urna tempus non. Integer lectus tellus, lobortis vel eleifend eget, aliquet eget mauris. Praesent vel aliquam ligula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean non scelerisque purus.\r\n\r\nNunc sed elit viverra, volutpat tellus nec, auctor odio. Ut tempus lectus quis nisl interdum, vitae venenatis magna euismod. Sed lorem lorem, finibus nec molestie sed, varius eu mi. Quisque tempus tincidunt tellus, ut iaculis ante lobortis ut. Ut semper viverra ex et posuere. Nullam sed sollicitudin est, ut pellentesque ligula. Quisque vitae tristique nulla. Curabitur finibus tortor rhoncus mattis gravida. In nisi magna, dictum vel diam vitae, vehicula finibus augue. Phasellus ac ante sit amet neque vulputate semper in facilisis odio. Praesent et dolor vestibulum, ultrices est a, pellentesque odio. Phasellus vulputate nunc vel quam maximus porta. Nulla sed ante nisl.\r\n\r\nMauris maximus ligula vel lacinia pellentesque. Vivamus eu iaculis risus, a tempus mauris. Nullam pulvinar viverra diam, non volutpat turpis dapibus id. Suspendisse dolor augue, pharetra scelerisque dictum id, placerat vel ex. Cras a arcu nec odio efficitur pellentesque sed vel ipsum. In hac habitasse platea dictumst. Sed elit ligula, vulputate vel nulla quis, scelerisque tempus orci. Donec dignissim tincidunt eros, sed lobortis dui accumsan id.\r\n\r\nSuspendisse vestibulum ut eros vel auctor. Sed lobortis sagittis nulla ut vehicula. Donec pellentesque mauris est, sit amet fermentum nibh auctor quis. Fusce eget mollis ex. Morbi nisi ipsum, laoreet non laoreet in, fermentum non turpis. Nunc at mollis enim. Integer vestibulum arcu metus. Maecenas ornare faucibus urna eget pulvinar. Donec mollis nec purus quis rhoncus. Nam nibh lorem, hendrerit vel tempus sit amet, volutpat id diam.",
+    "is_active": true,
+    "created_at": "2025-03-18T06:03:20.911Z",
+    "updated_at": "2025-03-18T06:03:20.911Z"
+  }
+},
+{
+  "model": "blog.blog",
+  "pk": 78,
+  "fields": {
+    "name": "Enjoy the vacation in France",
+    "short_desc": "France is one of the beautiful European country",
+    "image": "blog_images/BingWallpaper_12.jpg",
+    "slug": "enjoy-the-vacation-in-france",
+    "content": "Phasellus volutpat nunc a odio tempor sagittis. Nullam vehicula porttitor leo eu pharetra. Curabitur in mi sit amet urna semper egestas. Integer vel maximus augue, sit amet blandit ex. Cras felis mauris, dictum in fringilla at, consectetur non tellus. Vestibulum dapibus semper porttitor. Nunc a consequat nisl. Donec ut eleifend est, dignissim laoreet mi. Pellentesque dolor ex, fringilla sed viverra sit amet, ornare at urna.\r\n\r\nEtiam elit nisi, viverra ultricies odio ac, blandit egestas magna. Vestibulum efficitur euismod libero, nec euismod leo vehicula at. Nullam dolor neque, tempor eu interdum consequat, placerat non mauris. Pellentesque in turpis pulvinar, commodo mauris eget, vehicula sem. Aliquam sit amet diam sed lacus euismod maximus. Mauris dictum feugiat enim in malesuada. Donec ullamcorper neque nec molestie aliquet. Mauris eget viverra massa. Cras tincidunt condimentum tortor, eu pretium quam fermentum ut. Nullam vel suscipit enim. Aliquam pharetra leo ligula. Ut vehicula dapibus sem, in hendrerit urna tempus non. Integer lectus tellus, lobortis vel eleifend eget, aliquet eget mauris. Praesent vel aliquam ligula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean non scelerisque purus.\r\n\r\nNunc sed elit viverra, volutpat tellus nec, auctor odio. Ut tempus lectus quis nisl interdum, vitae venenatis magna euismod. Sed lorem lorem, finibus nec molestie sed, varius eu mi. Quisque tempus tincidunt tellus, ut iaculis ante lobortis ut. Ut semper viverra ex et posuere. Nullam sed sollicitudin est, ut pellentesque ligula. Quisque vitae tristique nulla. Curabitur finibus tortor rhoncus mattis gravida. In nisi magna, dictum vel diam vitae, vehicula finibus augue. Phasellus ac ante sit amet neque vulputate semper in facilisis odio. Praesent et dolor vestibulum, ultrices est a, pellentesque odio. Phasellus vulputate nunc vel quam maximus porta. Nulla sed ante nisl.\r\n\r\nMauris maximus ligula vel lacinia pellentesque. Vivamus eu iaculis risus, a tempus mauris. Nullam pulvinar viverra diam, non volutpat turpis dapibus id. Suspendisse dolor augue, pharetra scelerisque dictum id, placerat vel ex. Cras a arcu nec odio efficitur pellentesque sed vel ipsum. In hac habitasse platea dictumst. Sed elit ligula, vulputate vel nulla quis, scelerisque tempus orci. Donec dignissim tincidunt eros, sed lobortis dui accumsan id.\r\n\r\nSuspendisse vestibulum ut eros vel auctor. Sed lobortis sagittis nulla ut vehicula. Donec pellentesque mauris est, sit amet fermentum nibh auctor quis. Fusce eget mollis ex. Morbi nisi ipsum, laoreet non laoreet in, fermentum non turpis. Nunc at mollis enim. Integer vestibulum arcu metus. Maecenas ornare faucibus urna eget pulvinar. Donec mollis nec purus quis rhoncus. Nam nibh lorem, hendrerit vel tempus sit amet, volutpat id diam.",
+    "is_active": true,
+    "created_at": "2025-03-18T06:04:36.164Z",
+    "updated_at": "2025-03-18T06:04:36.164Z"
+  }
+},
+{
+  "model": "blog.blog",
+  "pk": 79,
+  "fields": {
+    "name": "Giant Panda from China",
+    "short_desc": "Giant panda from china but I thought it as polar bear by mistakenly",
+    "image": "blog_images/BingWallpaper_13.jpg",
+    "slug": "giant-panda-from-china",
+    "content": "Aliquam id dui iaculis, tincidunt sem in, molestie metus. Donec vehicula sapien eget lacus pellentesque consectetur. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras bibendum varius dui, vel lobortis nisl convallis eu. Phasellus purus sem, rutrum et nulla a, euismod gravida lacus. Pellentesque vel augue laoreet, pulvinar nulla vel, blandit quam. Curabitur suscipit interdum mi, quis efficitur velit consectetur eget. Aliquam erat volutpat. Quisque scelerisque maximus est dignissim tristique. Aenean ac leo orci. Donec convallis suscipit turpis in mollis.\r\n\r\nVivamus id massa tincidunt, viverra tellus et, sollicitudin elit. Phasellus non massa quis augue tristique scelerisque. Nullam congue volutpat commodo. Aenean venenatis metus et ipsum suscipit lobortis. Etiam luctus orci est, ut dignissim metus commodo eget. Nulla facilisi. Pellentesque eleifend interdum ante sed lobortis. Phasellus commodo, nisi nec tincidunt ultrices, metus risus suscipit ligula, a egestas lectus neque a enim. Cras ut dui et dolor sollicitudin iaculis vitae sit amet eros. Sed egestas non risus placerat consectetur. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi semper, dui in sagittis consectetur, diam ante venenatis erat, quis vulputate lectus turpis sit amet magna. Nullam iaculis lacus magna, in accumsan nisi semper id. Mauris nec magna posuere, imperdiet justo eget, scelerisque diam. Cras condimentum semper tincidunt. Curabitur luctus commodo risus et vestibulum.\r\n\r\nNulla tristique lectus eget diam congue, non accumsan nibh tempus. Praesent eu velit lectus. Nullam eu bibendum tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse viverra sodales varius. Ut auctor quam quis semper vestibulum. Praesent sapien purus, feugiat sit amet placerat et, aliquam et lorem. Donec semper nulla eget condimentum rutrum. Sed mattis augue eget hendrerit vestibulum. Donec tortor ipsum, mollis in orci sed, varius bibendum ante. Phasellus egestas elit ligula, quis maximus tortor tempus at. Nulla leo dui, luctus ac aliquam ac, feugiat et est. In vel fringilla eros. Nam ac bibendum orci. Phasellus tellus dui, pulvinar at justo sodales, viverra rutrum erat.\r\n\r\nSuspendisse nisi lacus, aliquam varius odio a, fermentum dignissim massa. Sed placerat, justo ac dignissim ultricies, ex odio venenatis velit, non tristique risus mauris ut libero. Morbi hendrerit tristique orci, vitae efficitur nulla consequat at. Maecenas eu accumsan elit. Phasellus sit amet elit pharetra, scelerisque felis at, fermentum dui. Pellentesque pellentesque dignissim arcu, et dignissim tortor tristique ac. Vivamus sit amet mauris ante. Sed id interdum quam. Aliquam gravida dui dui, a porttitor nisl dictum feugiat. Donec tincidunt ante risus, at aliquet orci congue eu. Suspendisse consequat mattis ex tempor suscipit. Quisque faucibus enim a velit fermentum, sit amet lacinia lacus auctor. Aliquam erat massa, ultrices eget commodo in, condimentum sit amet justo. Proin porta non ante non convallis. Nullam at molestie est, nec aliquet odio. Nulla ultricies congue mauris, at aliquam eros luctus at.\r\n\r\nNullam sed sodales felis, et lacinia ex. Duis blandit erat lorem, sit amet cursus nibh semper eu. Nunc eu ipsum in est scelerisque condimentum ut id sem. Aenean laoreet, ex at iaculis consectetur, ante nibh pellentesque orci, nec elementum eros erat vel nisl. Cras vitae dictum nisl. Donec dignissim mi purus, ut ornare urna lacinia eget. Integer at efficitur neque, sit amet maximus diam. Suspendisse eget dapibus felis. Donec hendrerit turpis efficitur dui facilisis porta",
+    "is_active": true,
+    "created_at": "2025-03-18T17:28:30.022Z",
+    "updated_at": "2025-03-18T17:28:30.022Z"
+  }
+},
+{
+  "model": "blog.blog",
+  "pk": 80,
+  "fields": {
+    "name": "Compiler vs Interpreter",
+    "short_desc": "This is sample test blog about compilor vs Interpretor",
+    "image": "blog_images/c_vs_i.webp",
+    "slug": "compiler-vs-interpreter",
+    "content": "1. **What is Translator?**\r\n    - A translator is a person or tool that converts text or speech from one language to another.\r\n\r\n 1. **Why do we need translator?**\r\n    - Computer program written using high-level language.\r\n    - Only humans are capable to understand high-level language.\r\n    - **Translator** - converts high level language code to the binary language code which machines can understand.\r\n\r\n 1. **How many types of translators? What are they?**\r\n    - 2 types of translators\r\n      - Compiler\r\n      - Interpretor\r\n\r\n## Compiler\r\n\r\n 1. **What is compiler?**\r\n    - Compiler is **complex piece of software** whose job is to **convert** *source code* (i.e) *human understandable* to *machine understandable code* (i.e) *binary code* in _**one go**_.\r\n\r\n    - Before running a code we need to compile.\r\n    - After compiled, the compiler translates the source code to machine executable code.\r\n    - The executable code will **run** on the machine.\r\n    - If we compile thr code in windows machine then the executable file extention would be **.exe**\r\n    - Also we will get *object file*. (need not to worry)\r\n\r\n![Compilation](https://raw.githubusercontent.com/selvaganesh3m/Documents/refs/heads/main/learning/assets/compiler.png \"Compile\")\r\n\r\n_**Note**_: C is compiled programming language. \r\n\r\n## Interpreter\r\n 1. **What is interpreter?**\r\n    - Interpreter is a software program written to translate *source code* (i.e) *human understandable* to *machine understandable code* (i.e) *binary code* but it does that by **_line by line_**.\r\n\r\n    - Convert each line one by one to machine code on the fly (at run time).\r\n\r\n    - Machine 2 also required machine code.\r\n    - We don't get executable in response.\r\n\r\n![Interpreter](https://raw.githubusercontent.com/selvaganesh3m/Documents/refs/heads/main/learning/assets/interpreter.png \"Interpreter\")\r\n\r\n **Note**: JS is interpreted programming language. \r\n\r\n## Compiler vs Interpreter\r\n\r\n- _**Compiler**_: Translate the source code to machine code in one go.\r\n- _**Interpreter**_: Translate the source code to machine code line by line. It never generates the executable.\r\n\r\n## Pros of compiled languages\r\n- Private code - source code is safe.\r\n- Faster Execution (Compile once run multiple times).\r\n- Fully optimized. (Optimized according to our CPU).\r\n\r\n## Cons of compiled languages\r\n- No portability (executable is capable to run in similar type of platform - Windows machine alone or MAC alone or Linux machine alone based on which platform it is compiled).\r\n- Extra compilation step (when we change the source code).\r\n\r\n## Pros of interpreted languages\r\n- Portable.\r\n- Easy to debug.\r\n \r\n## Cons of interpreted languages\r\n- Required interpreter.\r\n- Slower.\r\n- Public code. (no executable)\r\n\r\n\r\n## Hybrid Approach\r\n- Involves best of Compiler and interpreter.\r\n- Combination of both.\r\n- Code privacy form compilation and portability from interpretaion.\r\n- Interpreter must be installed.\r\n\r\n### **_Examples_**\r\n- **Compiled**: C, C++, etc.,\r\n- **Interpreted**: JS, PHP, etc.,\r\n- **Hybrid**: Java, C#, etc.,\r\n\r\n![Hybrid](https://raw.githubusercontent.com/selvaganesh3m/Documents/refs/heads/main/learning/assets/hybrid.png \"Hybrid\")\r\n\r\n### Is pthon interpreted or compiled language?\r\n- Python is both compiled and interpreted language. (HYBRID)\r\n- Interpreter is a part of PVM\r\n\r\n![Hybrid Eg](https://raw.githubusercontent.com/selvaganesh3m/Documents/refs/heads/main/learning/assets/hybrideg.png \"Hybrid eg\")\r\n\r\n**_Example_**: **Bytecode Generation**\r\n\r\n![Bytecode Eg](https://raw.githubusercontent.com/selvaganesh3m/Documents/refs/heads/main/learning/assets/bytecode.png \"Bytecode eg\")",
+    "is_active": true,
+    "created_at": "2025-03-18T18:18:47.277Z",
+    "updated_at": "2025-03-22T18:15:37.281Z"
+  }
+},
+{
+  "model": "blog.blog",
+  "pk": 81,
+  "fields": {
+    "name": "Restore .sql File into PostgreSQL configured using Docker",
+    "short_desc": "Steps to restore DB Backup in to new database",
+    "image": "blog_images/Postgres.webp",
+    "slug": "restore-sql-file-into-postgresql-configured-using-docker",
+    "content": "**Note**: In docker \"5000:80\" - 5000 is the port we should open in browser (i.e) localhost:5000\r\n\r\n1. Extract the tarball in to folder\r\n    ```bash\r\n    tar -zxvf <file_name>.tar.gz -C /path/to/target/folder\r\n    ```\r\n1. Copy the **`.sql`** to docker\r\n    ```bash\r\n    docker cp ~/path/to/<file_name>.sql <container-name>:/var/lib/postgresql/data/\r\n    ```\r\n1. To go to docker bash (shell)\r\n    ```bash\r\n    docker exec -it <container-name> /bin/bash   \r\n    ```\r\n1. Go to postgres sql shell using below command\r\n    ```bash\r\n    psql -U <username> -d <dbname>\r\n    ```\r\n1. Create Dummay database in POSTGRESQL\r\n    ```bash\r\n    CREATE DATABASE <name-of-your-db>;\r\n    ```\r\n1. Now Quit the postgres shell\r\n    ```bash\r\n    \\q\r\n    ```\r\n1. Final Restoration steps:\r\n    ```bash\r\n    psql -U selva -d usa -a -f /var/lib/postgresql/data/usda.sql\r\n    ```\r\n1. Go to psql shell again\r\n1. Check if the DB exists using below query\r\n    ```sql\r\n    SELECT datname FROM pg_database;\r\n    ```\r\n    or\r\n    ```bash\r\n    \\l\r\n    ```",
+    "is_active": true,
+    "created_at": "2025-03-18T22:05:54.969Z",
+    "updated_at": "2025-03-18T22:06:02.098Z"
+  }
+},
+{
+  "model": "blog.blog",
+  "pk": 82,
+  "fields": {
+    "name": "Black Heron Canopy Botswana",
+    "short_desc": "Black heron canopy is a bird from looks like umbrella it's in Botswana, Sothern African region",
+    "image": "blog_images/BingWallpaper_14.jpg",
+    "slug": "black-heron-canopy-botswana",
+    "content": "Donec cursus urna posuere lectus pellentesque gravida. Vivamus semper erat nec auctor bibendum. Praesent iaculis metus eget erat vestibulum sagittis. Suspendisse porta ante odio, et eleifend risus tempus non. Maecenas sit amet commodo odio, commodo lacinia lacus. Donec vehicula feugiat orci ut vehicula. Suspendisse velit magna, commodo sed purus ac, vehicula pellentesque dolor. Sed finibus velit diam, nec tempus lacus hendrerit sed. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec libero ante, iaculis eget mauris ac, tristique maximus sapien. Ut pulvinar luctus suscipit. Nulla at feugiat tellus. Pellentesque lorem mauris, dictum id accumsan ut, consequat elementum nulla. Quisque vestibulum, nisl ut dictum mollis, diam leo cursus felis, vitae luctus elit urna interdum arcu.\r\n\r\nFusce aliquam lectus urna, sed hendrerit est vestibulum vel. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi rhoncus suscipit pretium. Nam sed eros est. Nulla facilisi. Nunc facilisis, nulla et tincidunt aliquam, risus est blandit dolor, eu hendrerit augue ex quis libero. Aenean in ex dui. Fusce dignissim, erat in pellentesque vestibulum, ipsum lacus dignissim sem, a egestas orci justo pulvinar sapien. Phasellus hendrerit suscipit interdum. Nunc blandit, massa vitae placerat eleifend, risus lacus sollicitudin libero, a fermentum neque nulla nec lectus. Curabitur porttitor nibh est, quis elementum mauris pulvinar id. Nunc in dui diam. Ut sagittis sapien elit, sed ultricies erat ultricies quis.\r\n\r\nMorbi cursus tempus lorem, tincidunt tristique enim laoreet sed. Vivamus vel tempor mauris. Proin nec elit euismod, fermentum nulla ut, euismod erat. Pellentesque volutpat massa lacus, vehicula vestibulum metus tempus non. Nullam non volutpat enim, ut convallis nisl. Nunc non augue efficitur, facilisis lectus suscipit, sodales libero. Vestibulum et elit ac erat sagittis interdum. Quisque mattis risus mauris, non ullamcorper turpis laoreet eget.\r\n\r\nNam justo massa, euismod nec metus vitae, efficitur porta sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse laoreet dolor non risus pulvinar, sit amet mattis dui bibendum. Duis maximus, libero eget vehicula mollis, ante lacus mollis ex, in sagittis ante mauris sit amet nunc. Ut ac viverra ex, quis mollis lectus. Donec sed ultricies purus, in dictum massa. In ex neque, aliquet a vestibulum sed, consectetur vel dolor.\r\n\r\nSed id maximus tellus, sed volutpat massa. Aliquam erat volutpat. Quisque vestibulum bibendum viverra. Praesent dictum hendrerit risus, et maximus lectus posuere eget. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris gravida risus porta, congue ante sed, blandit diam. Suspendisse at facilisis eros. Suspendisse malesuada, eros et porttitor tincidunt, ligula justo maximus purus, a auctor sapien diam a orci. Aliquam sed erat id velit rutrum lobortis. Cras pellentesque ligula vel eros finibus luctus",
+    "is_active": true,
+    "created_at": "2025-03-19T06:05:27.664Z",
+    "updated_at": "2025-03-19T06:05:58.209Z"
+  }
+}
+]
